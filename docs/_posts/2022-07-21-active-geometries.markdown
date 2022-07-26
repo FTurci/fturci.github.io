@@ -22,9 +22,15 @@ The simplest modification we consider is to couple two barriers in the x and y d
 
 ### In two dimensions
 
+In two dimensions, I observe the gradual transformation from a completely wet cross to the formation of accumulation in the corners of the cross, with large fluctuations from time frame to time frame and from quadrant to quadrant.
+
+![2dcross](/images/WeetingCrossGeom/2dcross-eps24-32-48.png)
+
+The fluctuations for weak barrier strengths are very strong, but it is maybe still possible to define time windows over which the density profiles in a quadrant are quasi-stationary
 
 
 
+![2deps24](/images/WeetingCrossGeom/2d-eps24.gif)
 
 ### In three dimensions 
 
