@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Projects and development by [Francesco Turci](https://francescoturci.net).
+Hello by [Francesco Turci](https://francescoturci.net).
+
+In these pages, I collect preliminary ideas and results for various research projects. They are organised by *categories*. Most of them are for personal use.
 
 <!--
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
