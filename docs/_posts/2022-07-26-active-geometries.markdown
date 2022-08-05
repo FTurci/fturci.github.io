@@ -102,17 +102,19 @@ so I took averages after a (somewhat arbitrary) warmup time of 100 $\tau_R$.
 
 
 
-For two dimensional systems, the simple metric of asymmetry seems to mix multiple effects:
+For **2D systems**, the simple metric of asymmetry seems to mix multiple effects:
 
 
 
 ![2d-finite-sizes](/images/WeetingCrossGeom/finite-sizes/ptp-finite-size-2D.png)
 
-Chiefly, a possible issue may be due to trajectories that are too short: attaining the steady state becomes slower with decreasing $\varepsilon$ .
+Chiefly, a possible issue may be due to trajectories that are too short: attaining the steady state becomes slower with decreasing $\varepsilon$ . Much longer averages do not seem to address the issue
+
+![ptp-finite-size-long](/images/WeetingCrossGeom/ptp-finite-size-long.png)
 
 
 
-In the 3D case, it seems that the trends are clearer, with asymmetries that become larger at small $\varepsilon$ and smaller at large $\varepsilon$, which is reminiscent of the sharpening of the transition that I reported in the PRL,
+In the **3D case**, it seems that the trends are clearer, with asymmetries that become larger at small $\varepsilon$ and smaller at large $\varepsilon$, which is reminiscent of the sharpening of the transition that I reported in the PRL,
 
 ![3d-finite-sizes](/images/WeetingCrossGeom/finite-sizes/ptp-finite-size-3D.png)
 
