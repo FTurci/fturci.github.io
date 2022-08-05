@@ -108,7 +108,7 @@ For **2D systems**, the simple metric of asymmetry seems to mix multiple effects
 
 ![2d-finite-sizes](/images/WeetingCrossGeom/finite-sizes/ptp-finite-size-2D.png)
 
-Chiefly, a possible issue may be due to trajectories that are too short: attaining the steady state becomes slower with decreasing $\varepsilon$ . Much longer averages do not seem to address the issue
+Chiefly, a possible issue may be due to trajectories that are too short: attaining the steady state becomes slower with decreasing $\varepsilon$ . Much longer averages (600 $\tau_R$) do not seem to address the issue
 
 ![ptp-finite-size-long](/images/WeetingCrossGeom/ptp-finite-size-long.png)
 
