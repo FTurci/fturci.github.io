@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Labels</key>
+	<string>\epsilon_w
+# of particles/(0.05\tau_r)
+left to right
+right to left
+l = (−1.643)eps + 60.645
+net
+</string>
+	<key>Text</key>
+	<string></string>
+</dict>
+</plist>
