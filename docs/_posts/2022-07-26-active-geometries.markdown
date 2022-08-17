@@ -152,7 +152,7 @@ I pushed the simulations a bit further and simulated very large 3D systems with 
 
 
 
-The following animations illustrate 
+The following animations illustrate the relaxation to the steady state at different barrier strengths
 
 |                    $\varepsilon=8$                     |                     $\varepsilon=10$                     |                     $\varepsilon=20$                     |                     $\varepsilon=30$                     |
 | :----------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: |
