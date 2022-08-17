@@ -134,15 +134,28 @@ For example, in 2D and 3D the asymmetry seems to be attained in pairs of quadran
 
 
 
-Note also that in both cases the droplet-like sections seem to form an angle close to 90 degrees with the barriers (or it is an optical illusion).
+Note also that in both cases, the droplet-like sections seem to form an angle close to 90 degrees with the barriers (or it is an optical illusion).
+
+
+
+### VERY large systems
+
+I pushed the simulations a bit further and simulated very large 3D systems with $L_x = L_y = 120\sigma$ and a thinner transverse dimension $L_z = 20\sigma$, at density $\rho=0.75$ so that I simulate 216000 particles for 300$\tau_r$.  
+
+
+
+![image-20220817120426500](/images/WeetingCrossGeom/eps8-lx603D.png)
+
+*Density at $\varepsilon=8$ in a system with size $L_x=120\sigma$*.
 
 
 
 
 
+The following animations illustrate 
 
-
-
-
+|                    $\varepsilon=8$                     |                     $\varepsilon=10$                     |                     $\varepsilon=20$                     |                     $\varepsilon=30$                     |
+| :----------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: |
+| ![mov-eps8.0](/images/WeetingCrossGeom/mov-eps8.0.gif) | ![mov-eps10.0](/images/WeetingCrossGeom/mov-eps10.0.gif) | ![mov-eps20.0](/images/WeetingCrossGeom/mov-eps20.0.gif) | ![mov-eps30.0](/images/WeetingCrossGeom/mov-eps30.0.gif) |
 
 
