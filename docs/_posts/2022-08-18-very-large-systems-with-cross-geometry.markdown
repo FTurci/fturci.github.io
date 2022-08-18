@@ -14,7 +14,7 @@ I pushed the simulations a bit further and simulated very large 3D systems with 
 
 ![image-20220817120426500](/images/WeetingCrossGeom/eps8-lx603D.png)
 
-*Density at $\varepsilon=8$ in a system with size $L_x=120\sigma$*.
+*Density field at $\varepsilon=8$ in a system with size $L_x=120\sigma$*.
 
 
 
