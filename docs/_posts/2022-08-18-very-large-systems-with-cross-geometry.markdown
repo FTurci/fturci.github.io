@@ -46,6 +46,6 @@ The probability distribution function of the curvature at steady state is non-Ga
 
 ![boxplot](/images/WeetingCrossGeom/contours/pdfs.png)
 
-The curvature captures aspects of the transition (again, the order is not clear):
+The curvature captures aspects of the transition (again, the order is not clear). Noticeably, there is essentially an inversion in the sign of the curvature (both median and mean). Note that the mean displays a non-monotonic behaviour, which seems consistent with the fact that at large $\varepsilon$ the interface is mostly flat away from the centre (so the curvature should be closer to zero).
 
 ![medians](/images/WeetingCrossGeom/contours/stats.png)
