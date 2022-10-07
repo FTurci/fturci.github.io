@@ -16,13 +16,13 @@ Running large simulations with $L_x=100\sigma$ for 700 $\tau_r$
 
 | $\varepsilon$ |                 time average of the density                  |
 | :-----------: | :----------------------------------------------------------: |
-|      10       | ![eps10.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps10.0-hist-data-dl1.0.h5.avg.png) |
-|      12       | ![eps12.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps12.0-hist-data-dl1.0.h5.avg.png) |
-|      14       | ![eps14.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps14.0-hist-data-dl1.0.h5.avg.png) |
-|      16       | ![eps16.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps16.0-hist-data-dl1.0.h5.avg.png) |
-|      18       | ![eps18.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps18.0-hist-data-dl1.0.h5.avg.png) |
-|      20       | ![eps20.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps20.0-hist-data-dl1.0.h5.avg.png) |
-|      30       | ![eps30.0-hist-data-dl1.0.h5.avg](/images/WettingCornerGeom/avgs/eps30.0-hist-data-dl1.0.h5.avg.png) |
+|      10       | <img src="/images/WettingCornerGeom/avgs/eps10.0-hist-data-dl1.0.h5.avg.png" alt="eps10.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      12       | <img src="/images/WettingCornerGeom/avgs/eps12.0-hist-data-dl1.0.h5.avg.png" alt="eps12.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      14       | <img src="/images/WettingCornerGeom/avgs/eps14.0-hist-data-dl1.0.h5.avg.png" alt="eps14.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      16       | <img src="/images/WettingCornerGeom/avgs/eps16.0-hist-data-dl1.0.h5.avg.png" alt="eps16.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      18       | <img src="/images/WettingCornerGeom/avgs/eps18.0-hist-data-dl1.0.h5.avg.png" alt="eps18.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      20       | <img src="/images/WettingCornerGeom/avgs/eps20.0-hist-data-dl1.0.h5.avg.png" alt="eps20.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
+|      30       | <img src="/images/WettingCornerGeom/avgs/eps30.0-hist-data-dl1.0.h5.avg.png" alt="eps30.0-hist-data-dl1.0.h5.avg" style="zoom:50%;" /> |
 
 
 
@@ -59,8 +59,50 @@ Further insight can be gleaned by looking at the density fluctuations. If we mea
 
 
 
-It would appear that $\varepsilon=10$ corresponds to a regime where fluctuations are maximal in amplitude and spatial extent, and that these dampen below and above this value. How to understand this.
+It would appear that $\varepsilon=10$ corresponds to a regime where fluctuations are maximal in amplitude and spatial extent, dampening below and above this value. They are very much suppressed in the high $\varepsilon$, where wetting is strong, meaning that the density profile is well-localised. As the strength is decreased, the interface away from the corner changes curvature and presents a significant increase in its fluctuations. Note that it is only as we decrease $\varepsilon$ that this interface should become more and more similar to a free interface of MIPS in its fluctuations.
 
-Clearly, they are very much suppressed in the high $\varepsilon$, where wetting is strong, meaning that the density profile is well-localised. As the strength is decreased, the interface away from the wedge changes curvature and presents a significant increase in its fluctuations. Note, in fact, that it is only as we decrease $\varepsilon$ that this interface should become more and more similar to a free interface of MIPS in its fluctuations.
+The fact that for $10<\varepsilon<20$ the fluctuations appear to penetrate inside the droplet could be interpreted as a consequence of global rearrangements of large parts of the droplet itself. The scale associated with these rearrangements appears to peak for $\varepsilon=10$. Below this value (where the protocol is different and the data come from a quench), the fluctuations appear again confined to the free surface. This again makes sense, as in the limit of $\varepsilon=0$ we would expect the variance to be maximal at the interface and very low both inside and outside of the stationary droplet.
 
-The fact that for $10<\varepsilon<20$ the fluctuations appear to penetrate inside the droplet could be interpreted as a consequence of global rearrangements of large parts of the droplet itself. The scale associated with these rearrangements appears to peak for $\varepsilon=10$. Below this value (where notably the protocol is different nad the data come from a quench), the fluctuations appear again confined to the free surface. This again makes sense, as in the limit of $\varepsilon=0$ we would expect the variance to be maximal at the interface and very low both inside and outside of the droplet.
+
+
+### Size of the fluctuations
+
+To quantify the size of the fluctuation, I resort to a strategy similar to what I had done in the single barrier case: by trying to identify connected regions of relatively lower density within the high density phase.
+
+I do so by :
+
+- removing high-density regions (cutoff rcut = 2, coordination threshold = 40, meaning a local density of about 1.193~$\rho_{HD}$)
+- clustering the remaining low density (short cutoff at 1.2 to separate the background from clusters inside the HD region)
+- remove the largest cluster (most of the LD region) and uninteresting small clusters (either because they are too small or in the wrong quadrant).
+
+![ldalgo](/images/WettingCornerGeom/ldalgo.png)
+
+
+
+The resulting clusters of particles represent regions of low density within the high-density corner. Their size can be estimated using their radius of gyration.
+
+The stationary probability distributions of the radius are characterised by exponential tails so that we can extract a meaningful average size. Here below, we see that this size increases progressively as the barrier strength is reduced.
+
+![flucts](/images/WettingCornerGeom/flucts.png)
+
+So this length scale increases very modestly (~12%) but it does increase. I can compare these increases to integral measures of the fluctuations plots above. So, I integrate (sum) the variance and the pseudo-compressibility $\chi=\rm{Var[\rho]}/\rm{Avg[\rho]}$ and plot their $\varepsilon$ dependence.
+
+![integrals](/images/WettingCornerGeom/integrals.png)
+
+Here the changes seem to be sharper and more localised around $\varepsilon=10$. Yet, the ratios between extremes are similar: the integrated variance increases by 20% while the integrated $\chi$ increase by about 10% from high to low $\varepsilon$.
+
+
+
+### Mobility 
+
+Another possible source of fluctuations could be the enhanced mobility of the droplet. If we track the mean squared displacement of the centre of mass, we see that this remains localised
+
+![msds](/images/WettingCornerGeom/msds.png)
+
+A better measure is the mobility of the centre of mass, defined  as
+
+$$k(\varepsilon) =\frac{1}{T-1}\sum_{t=1}^{T-1} |\mathbf{r}_{com}(t)-\mathbf{r}_{com}(t-1)|^2$$
+
+The numerical evidence (albeit noisy) points towards an increase with decreasing $\varepsilon$
+
+![image-20221007095739783](/images/WettingCornerGeom/activity.png)
