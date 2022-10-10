@@ -55,17 +55,21 @@ Seen from this point of view, it appears that the high-density region simply gra
 
 
 
-Further insight can be gleaned by looking at the density fluctuations. If we measure, for example,  the variance of the density profiles, we observe an interesting trend:![variances](/images/WettingCornerGeom/avgs/variances.png)
+Further insight can be gleaned by looking at the density fluctuations. If we measure, for example,  the variance of the density profiles, we observe a moderate increase in the variance as the strength is reduced
+
+![vartable](/images/WettingCornerGeom/chi/vartable.png)
 
 
 
-It would appear that $\varepsilon=10$ corresponds to a regime where fluctuations are maximal in amplitude and spatial extent, dampening below and above this value. They are very much suppressed in the high $\varepsilon$, where wetting is strong, meaning that the density profile is well-localised. As the strength is decreased, the interface away from the corner changes curvature and presents a significant increase in its fluctuations. Note that it is only as we decrease $\varepsilon$ that this interface should become more and more similar to a free interface of MIPS in its fluctuations.
+A pseud- compressibility can be obtained by rescaling the variance by the density,
 
-The fact that for $10<\varepsilon<20$ the fluctuations appear to penetrate inside the droplet could be interpreted as a consequence of global rearrangements of large parts of the droplet itself. The scale associated with these rearrangements appears to peak for $\varepsilon=10$. Below this value (where the protocol is different and the data come from a quench), the fluctuations appear again confined to the free surface. This again makes sense, as in the limit of $\varepsilon=0$ we would expect the variance to be maximal at the interface and very low both inside and outside of the stationary droplet.
+![chitable](/images/WettingCornerGeom/chi/chitable.png)
 
 
 
-### Size of the fluctuations
+The fluctuations are localised at the border, and most pronounced at the interface that is not in contact with the barrier.
+
+## Size of the fluctuations
 
 To quantify the size of the fluctuation, I resort to a strategy similar to what I had done in the single barrier case: by trying to identify connected regions of relatively lower density within the high density phase.
 
