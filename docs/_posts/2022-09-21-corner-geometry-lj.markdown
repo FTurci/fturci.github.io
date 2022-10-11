@@ -36,7 +36,7 @@ The fluctuations are also qualitatively similar to the active case.
 
 
 
-### Compressibility and its inverse
+### Compressibility 
 
 ![chi](/images/LJcorner/chis.png)
 
@@ -46,7 +46,7 @@ The fluctuations are also qualitatively similar to the active case.
 
 ## Possible measures
 
-For this passive system, we can measure the tensions from the anisotropy of the pressure tensor. At contact angle $\theta_c = 90˚$ , $\gamma_{wl}=\gamma_{wg}$ so we should be able to verify this condition. The question is, how does this equality transform for quantities that are accessible also in the active case? For example, does it translate into a relation for the compressibility field?
+For this passive system, we can measure the tensions from the anisotropy of the pressure tensor. At contact angle $\theta_c = 90˚$ , $\gamma_{wl}=\gamma_{wg}$ so we should be able to verify this condition. The question is, how does this equality transform for quantities that are accessible also in the active case? For example, does it translate into a relationship for the compressibility field?
 
 Digging the old literature, it seems that there have been well-established empirical observations, including work by  Egelstaff and Widom stating that 
 
@@ -56,7 +56,7 @@ where $\kappa$ is the compressibility and $\gamma_{lg}$  is the liquid-vapour su
 
 $$\gamma_{lg}(\kappa/\rho)^{1/2}\sim constant$$
 
-with a constant independent from the temperature and $\rho$ being the mass density.
+with a constant independent of the temperature and $\rho$ being the mass density.
 
 These relations hold for the bulk tension, and are suggestive of a connection between tension and inverse compressibility.
 
