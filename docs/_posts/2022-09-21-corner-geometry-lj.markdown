@@ -14,6 +14,7 @@ The geometry is the following:
 
 - two walls with 9-3 Lennard-Jones interaction at x=0 and y=0 with identical potential well (attraction strength $\epsilon$)
 - periodic boundary conditions in the z dimension and reflective boundary conditions in the remaining faces of the cubic box. 
+- the fluid-fluid interactions are truncated (not shifted) at $2.5\sigma$
 
  ## Density
 
@@ -62,7 +63,7 @@ These relations hold for the bulk tension, and are suggestive of a connection be
 
 In Young's equation, the tension is
 
-$$\gamma_{lg}= \dfrac{\gamma_{wl}-\gamma_{wg}}{\cos\theta_c}$$
+$$\gamma_{lg}= \dfrac{\gamma_{wg}-\gamma_{wl}}{\cos\theta_c}$$
 
 If truly $\gamma_{lg}\sim \kappa^{-1}$ (or a similar negative exponent) it is suggestive that (where the surface of the droplet is far from the walls), the inverse compressibility should measure (scaled) differences in the tensions at the wall.
 
