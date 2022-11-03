@@ -14,13 +14,9 @@ So
 
 $n_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j )$
 
-where $\Lambda_i(\vec{r}_j)$ is an indicator function which 0 or 1 depending on whether  $\vec{r}_j$ is inside subvolume $i$ or not, and the several components of the flux are
+where $\Lambda_i(\vec{r}_j)$ is an indicator function which 0 or 1 depending on whether  $\vec{r}_j$ is inside subvolume $i$ or not, and the  components of the flux are (for example, the x component)
 
 $(F_x)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_x$
-
-$(F_y)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_y$
-
-$(F_z)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_z$
 
 while the average velocities are
 
