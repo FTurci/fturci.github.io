@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Fluxes in ABPs around a corner"
+date:   2022-11-03 22:30:03 +0100
+categories: [active wetting]
+typora-root-url: ../../docs
+---
+
+Here I illustrate some numerical results on particle currents in the active system around the corner geometry.
+
+To do so, I measure the displacements and take binned statistics of their components and of the number of particles, so that, for every sub volume $i$ of a suitable mesh.
+
+So
+
+$n_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j )$
+
+where $\Lambda_i(\vec{r}_j)$ is an indicator function which 0 or 1 depending on whether  $\vec{r}_j$ is inside subvolume $i$ or not, and the several components of the flux are
+
+$(F_x)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_x$
+
+$(F_y)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_y$
+
+$(F_z)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_z$
+
+while the average velocities are
+
+$(v_x)_i=(F_x)_i/n_i$
+
+
+
+I then perform steady state averaging as well as averaging across the z direction (the thickness of these quasi-2d systems). I then compute the vector fields in the x, y plane overplayed with an average density profile, as well as the(z-averaged) $F_x,F_y$ components of the flow field and their divergence and curl.
+
+
+
+### Strong barrier $\varepsilon=30$
+
+![](/images/WettingCornerGeom/flux/continue.Pe60.0.rho0.60.eps30.0.lx50.0.atom.arrays.npz.num.png)
+
+### Intermediate barrier $\varepsilon=20$
+
+![](/images/WettingCornerGeom/flux/continue.Pe60.0.rho0.60.eps20.0.lx50.0.atom.arrays.npz.num.png)
+
+### Weak barrier $\varepsilon=10$
+
+![](/images/WettingCornerGeom/flux/continue.Pe60.0.rho0.60.eps10.0.lx50.0.atom.arrays.npz.num.png)
+
+
+
+### Remarks:
+
+- There are nontrivial fluxes: particles are advected from the low density to the high density away from the obstacle and flow around the obstacle in its vicinity.
+- The curl (and to some extent the e divergence) peak around the contact points
+- The curl has opposite signs at the two ends of the obstacle.
