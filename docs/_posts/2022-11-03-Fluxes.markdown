@@ -18,7 +18,7 @@ where $\Lambda_i(\vec{r}_j)$ is an indicator function which 0 or 1 depending on 
 
 $$ (F_x)_i =\sum_{j=1}^N \Lambda_i(\vec{r}_j) (\Delta\vec{r}_j)_x $$
 
-where $\Delta \vec{r}_j$ i s the displacement.  The average velocities per sub volume is then
+where $\Delta \vec{r}_j$ is the displacement.  The average velocities per sub volume is then
 
 $(v_x)_i=(F_x)_i/n_i\Delta t$
 
