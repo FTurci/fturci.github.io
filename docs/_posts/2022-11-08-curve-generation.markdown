@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Curve generation"
+title:  "Curve generation and free energy"
 date:   2022-11-08 12:04:03 +0000
 categories: [active wetting, curves]
 typora-root-url: ../../docs
