@@ -59,7 +59,7 @@ $$
 
 for convenience, let us define 
 
-$u= \dfrac{\pi (\theta+\phi)}{2\phi}, \quad du=\pi d\theta/2\phi$
+$u= \dfrac{\pi (\theta+\phi)}{2\phi}$  with  $du=\pi d\theta/2\phi$
 
 So 
 $$
