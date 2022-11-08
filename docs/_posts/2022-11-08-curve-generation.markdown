@@ -159,7 +159,9 @@ This is valid if
 
 
 $$
+\begin{equation}
 \dfrac{16R^2}{\pi^2}>C
+\end{equation}
 $$
 
 
