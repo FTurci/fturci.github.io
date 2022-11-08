@@ -197,7 +197,7 @@ With the **positive solution** $a_1^+$, the equal area condition is very well sa
 
 The $a_1^{-}$ solution seems not physical (it inverts the curves), even if it preserves the area rather well.
 
-### High $\gamma/T=50, a_1^-$
+### High $\gamma/T=500, a_1^-$
 
 ![paths](/images/CurveGen/paths-energy500-aminus.png)
 
