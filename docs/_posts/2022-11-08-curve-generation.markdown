@@ -155,7 +155,7 @@ a_1 = \dfrac{-4R}{\pi}\pm\sqrt{\dfrac{16R^2}{\pi^2}-C}
 $$
 
 
-his is valid if
+This is valid if
 
 
 $$
