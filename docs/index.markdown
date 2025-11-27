@@ -15,4 +15,6 @@ title: "Welcome"
 
 ## Teaching 
 
+- [Complex Disordered Matter](https://fturci.github.io/course-disordered-matter/)
+- [Introduction to Coding and Data Analysis](https://fturci.github.io/intro-coding-data-analysis/)
 - [Software Engineering and Object-Oriented programming module for Programming and Data Analysis](https://fturci.github.io/oop-git/)
